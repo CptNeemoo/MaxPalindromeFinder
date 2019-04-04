@@ -11,7 +11,7 @@ public class MaxPalindromeFinder {
                 ,findMaxPalindrome()));
     }
 
-    public static long findMaxPalindrome() {
+    static long findMaxPalindrome() {
         long max = 0;
         for (int i = 9999; i > 1000; i--) {
             for (int j = i; j > 1000; j--) {
