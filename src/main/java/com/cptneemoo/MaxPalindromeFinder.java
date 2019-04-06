@@ -8,7 +8,7 @@ public class MaxPalindromeFinder {
 
     public static void main(String[] args) {
         log.info(String.format("The maximum palindrome created by multiplication of two 4-digit numbers is %d"
-                ,findMaxPalindrome()));
+                , findMaxPalindrome()));
     }
 
     static long findMaxPalindrome() {
@@ -25,7 +25,7 @@ public class MaxPalindromeFinder {
     }
 
 
-    static boolean isPalindrome(long number) {
+    private static boolean isPalindrome(long number) {
         char[] numberArray = Long.toString(number).toCharArray();
         boolean result = true;
         for (int i = 0; i < numberArray.length / 2; i++) {
